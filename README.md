@@ -18,9 +18,8 @@ A collection of custom Bash configuration scripts, aliases, and prompt enhanceme
 You can use the following script to quickly set up your bashrc configuration:
 
 ```bash
-curl -o ~/my-bashrc-remote.sh https://raw.githubusercontent.com/yourusername/my-bashrc/main/bashrc.sh
-echo 'source ~/my-bashrc-remote.sh' >> ~/.bashrc
-rm ~/my-bashrc-remote.sh
+curl -o ~/my-bashrc-remote.sh https://raw.githubusercontent.com/fsrodriguezm/my-bashrc/refs/heads/main/bashrc.sh
+cat ~/my-bashrc-remote.sh >> ~/.bashrc
 source ~/.bashrc
 ```
 
