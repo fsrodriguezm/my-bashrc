@@ -43,7 +43,6 @@ fi
 # 2) iTerm2 + Nerd Fonts (Meslo)
 brew update
 brew install --cask iterm2
-brew tap homebrew/cask-fonts
 brew install --cask font-meslo-lg-nerd-font
 
 # 3) Fetch your prompt file
@@ -62,7 +61,7 @@ add_line() {
 add_line ""
 add_line "# --- Powerline prompt (fsrodriguezm) ---"
 add_line "export USE_POWERLINE=true"
-add_line "source \$HOME/prompt_powerline_simple.zsh"
+add_line "source $HOME/prompt_powerline_simple.zsh"
 
 # 6) Reload shell
 echo "Done. Opening iTerm2 and reloading zsh..."
