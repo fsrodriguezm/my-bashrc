@@ -2,6 +2,9 @@
 
 A collection of custom Bash configuration scripts, aliases, and prompt enhancements to improve your terminal experience.
 
+<img width="644" height="93" alt="image" src="https://github.com/user-attachments/assets/7d9aa6c6-8e36-4fdb-af03-7b3d40d769ef" />
+
+
 ## Features
 
 - **Custom Git Prompt:**  
