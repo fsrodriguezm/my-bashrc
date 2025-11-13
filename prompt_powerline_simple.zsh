@@ -7,7 +7,7 @@ export LC_ALL=${LC_ALL:-en_US.UTF-8}
 
 # Icons
 : "${ICON_COFFEE:=☕}"
-: "${ICON_DIR:=📁}"
+: "${ICON_DIR:=🗂️}"
 : "${ICON_FILE:=📇}"
 : "${ICON_LINK:=🔗}"
 : "${ICON_BRANCH:=🌿 BRANCH}"
@@ -62,4 +62,8 @@ PROMPT=$'\n'\
 "%F{blue}%K{cyan}${SEP_R}%F{black} ${ICON_DIR} \$(count_dirs) ${ICON_FILE} \$(count_files) ${ICON_LINK} \$(count_links) %f%k"\
 "\$(git_segment)\$(final_arrow)"\
 $'\n'"%F{blue}╰> %F{cyan}%# %f%k"
+
+export CLICOLOR=1
+export LSCOLORS=gxBxhxDxfxhxhxhxhxcxcx
+alias ls='ls -G'
 # ========= end file =========
